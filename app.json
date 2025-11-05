@@ -1,0 +1,10 @@
+
+{
+  "name": "ct-webapp-poc",
+  "description": "Simple PoC web application for ordering and cancellation using Flask.",
+  "repository": "https://github.com/example/ct-webapp-poc",
+  "keywords": ["flask", "python", "poc", "webapp"],
+  "buildpacks": [
+    {"url": "heroku/python"}
+  ]
+}
