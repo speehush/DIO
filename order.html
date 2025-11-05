@@ -1,0 +1,1 @@
+<h2>Order CT Product</h2><form method="post">VIN: <input name="vin"><br>Product: <select name="product">{% for p in products %}<option>{{p.name}}</option>{% endfor %}</select><br>Price: <input name="price"><br><button type="submit">Submit</button></form>
